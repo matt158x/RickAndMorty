@@ -14,7 +14,7 @@
         android:layout_marginTop="60dp"
         app:cardElevation="4dp"
         app:cardCornerRadius="16dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -80,11 +80,10 @@
         android:id="@+id/genderImageView"
         android:layout_width="50dp"
         android:layout_height="50dp"
-
         android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/TextViewAlive"
-        app:layout_constraintStart_toEndOf="@id/aliveTextView"
+        app:layout_constraintStart_toStartOf="@id/cardView"
+        app:layout_constraintTop_toBottomOf="@id/cardView"
+        android:layout_marginTop="20dp"
         tools:srcCompat="@drawable/ic_male_24"/>
 
 
