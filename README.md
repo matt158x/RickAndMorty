@@ -1,4 +1,8 @@
 # RickAndMorty - Moatable
+
+mateusz.zrebiec@interia.pl
++48 500734193
+
 Simple application that fetches a list of Rick and Morty characters from the Rick and Morty API.
 
 
